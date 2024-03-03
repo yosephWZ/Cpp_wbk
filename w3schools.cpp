@@ -1,14 +1,89 @@
-//@#$!@#$@!#$Progress### << ///Jan_2023..??>> @ @#$@%#!@%!Saving??@!#$@!#$@!#$!@#$@!#$
+// @#$!@#$@!#$Progress### << ///Mar_2024..??>> @ @#$@%#!@%!Saving??@!#$@!#$@!#$!@#$@!#$
 //!!!!! don't stay at one part for more than 1 weekds...!!!!
 //!!!!! proceed as you go through by commenting .. for furhter refirinement..
 //..//...//..//...//..//..//..//...//
 //..//..Code explanation.//..use...//.ChatGPT.//..//..//...//
 //..//...//..//...//..//..//..//...//
+// exit(0); // 0 indicates successful termination
 
 
-/*_______________________ Sololearn Codecoach Challenges__________________ */
 
-    // exit(0); // 0 indicates successful termination
+/*_______________________ Sololearn Codecoach Challenges__________________ 
+
+
+#include <iostream>
+using namespace std;
+
+class A {
+	public:
+		~A(){cout <<1;}
+	
+};
+
+class B {
+	public:
+		~B(){cout <<2;}
+	
+};
+
+class C :public A, public B{
+	public:
+		~C(){cout <<3;}
+	
+};
+
+
+int main() {
+
+	C c;	
+
+  // return 0;
+}
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int main(){
+		
+	int x=5,p=1,sum=0;
+	int r;
+	
+	while(x>0){
+		r=x%2;
+		sum+=r*p; // sum = sum +1 ..3
+		p*=10;
+		x/=2;	// x=x/2 .. 2
+		
+	cout<< sum <<endl;
+	}
+
+}
+
+
+
+
+*/
+
+
+
+/*______Codecoach Challenges 
+
+#file:///D:\cNG\Cpp_wbk\beecrowd.cpp
+
+#file:///D:\cNG\Cpp_wbk\codeforces.cpp
+
+#file:///D:\cNG\Cpp_wbk\onlinejudge.cpp
+
+#file:///D:\cNG\Cpp_wbk\ProjectEuler.cpp
+
+
+*/
+
+
 
 
 /* _____________________   C++ Getting Started 
